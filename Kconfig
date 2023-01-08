@@ -1,11 +1,3 @@
-#
-# For a description of the syntax of this configuration file,
-# see Documentation/kbuild/kconfig-language.txt.
-#
-mainmenu "Linux/$ARCH $KERNELVERSION Kernel Configuration"
-
-config SRCARCH
-	string
-	option env="SRCARCH"
-
-source "arch/$SRCARCH/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0240517bffb43ef99c68c4be4f59d43e1cf439b7d8691e4e5b9c2e837755849
+size 252
